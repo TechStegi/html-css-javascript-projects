@@ -1,0 +1,61 @@
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.timer {
+    font-size: 75px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  transform: scale(1.2);
+  margin-right: 30px;
+  font-weight:500;
+  border-radius: 10px;
+  border:none; 
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#start  {
+    background-color: rgb(83, 195, 83);
+    color: rgb(1, 68, 1);
+}
+
+#start:hover {
+    background-color: rgb(3, 135, 36);
+    color: rgb(214, 224, 214);
+}
+
+#stop {
+    background-color: rgb(255, 65, 65);
+    color: rgb(95, 3, 3);
+}
+
+#stop:hover {
+    color: rgb(214, 224, 214);
+    background-color: rgb(215, 13, 13);
+}
+
+#reset {
+    background-color: rgb(181, 174, 174);
+    color: rgb(30, 30, 30);
+}
+
+#reset:hover {
+    color: rgb(214, 224, 214);
+    background-color: rgb(115, 113, 113);
+}

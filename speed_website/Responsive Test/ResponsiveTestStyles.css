@@ -1,0 +1,95 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(29, 27, 27);
+    color: rgb(197, 196, 196);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 4vw;
+}
+
+.line {
+    background-color: rgb(2, 107, 204);
+    width: 150px;
+    height: 2px;
+    margin: 0 auto 0 auto;
+    margin-top: -13px;
+}
+
+.skills {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.socialicon {
+    margin-top: 50px;
+}
+
+.icon {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.welcome {
+    margin: auto;
+    width: 100%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+button.toggle-projects {
+    display: inline-block;
+    padding: 0 20px;
+    color: blue;
+    background-color: rgb(102, 157, 175);
+    width: 100px;
+    height: 40px;
+}
+
+img.design-image, img.code-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#design-container {
+    display: block;
+}
+
+#code-container {
+    display: none;
+}
+
+div.certificates {
+    display: none;
+}
