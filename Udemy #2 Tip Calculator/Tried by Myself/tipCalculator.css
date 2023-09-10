@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Geneva, Tahoma, sans-serif;
+  background-color: lightblue;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+p {
+  font-weight: 600;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  margin: 200px auto;
+  padding-left: 40px;
+  border-radius: 20px;
+  border-color: aqua;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  padding: 10px 80px 10px 10px;
+}
+
+#total {
+  font-weight: 700;
+  font-size: 1.2em;
+}

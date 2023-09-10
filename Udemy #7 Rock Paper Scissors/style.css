@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(214, 207, 207);
+
+  transform: scale(1.5);
+}
+
+.container {
+  margin-top: 15%;
+}
+
+p {
+  display: inline-block;
+  margin: 10px 8px;
+}
+
+button {
+  padding: 10px 10px;
+  font-size: 2.1em;
+  border: none;
+  border-radius: 10px;
+  margin: auto 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#rock {
+  background-color: red;
+}
+#paper {
+  padding: 10px 12px;
+  background-color: blue;
+}
+#scissors {
+  padding: 10px 15px;
+  background-color: green;
+}
+
+#results {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+p#own_score {
+  color: green;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+p#comp_score {
+  color: red;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.dark_mode_button {
+  font-size: 18px;
+  padding: 10px 14px;
+  margin-top: 30px;
+}
+
+.dark_mode_body {
+  background-color: black;
+  color: white;
+}
+
+.dark_mode_button {
+  background-color: white;
+  color: black;
+}
