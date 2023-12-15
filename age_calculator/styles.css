@@ -3,7 +3,8 @@ body {
   padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
-  margin-top: 20%;
+  display: grid;
+  place-items: center;
   box-sizing: border-box;
 }
 
